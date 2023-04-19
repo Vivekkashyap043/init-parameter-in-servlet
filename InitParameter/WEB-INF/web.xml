@@ -1,0 +1,22 @@
+<web-app>
+    <servlet>
+        <init-param>
+            <param-name>email</param-name>
+            <param-value>vicky@gmail.com</param-value>
+        </init-param>
+        <init-param>
+            <param-name>Address</param-name>
+            <param-value>Hyderabad</param-value>
+        </init-param>
+        <init-param>
+            <param-name>Phone</param-name>
+            <param-value>9511136461</param-value>
+        </init-param>
+        <servlet-name>InitServlet</servlet-name>
+        <servlet-class>InitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InitServlet</servlet-name>
+        <url-pattern>/InitServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
